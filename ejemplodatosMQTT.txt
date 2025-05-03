@@ -1,0 +1,14 @@
+mosquitto_sub -h broker.hivemq.com -t "temperatura"
+{"timestamp": "2025-04-29T08:48:10.703287", "temperatura": 24.1, "humedad": 42.0}
+{"timestamp": "2025-04-29T08:48:15.161671", "temperatura": 24.1, "humedad": 42.0}
+{"timestamp": "2025-04-29T08:48:18.692739", "temperatura": 24.1, "humedad": 42.0}
+
+mosquitto_sub -h broker.hivemq.com -t "calidad_aire"
+{"timestamp": "2025-04-29T08:48:27.881632", "calidad_aire_ppm": 400}
+{"timestamp": "2025-04-29T08:48:32.887263", "calidad_aire_ppm": 400}
+
+mosquitto_sub -h broker.hivemq.com -t "Personas"
+{"timestamp": "2025-04-29T08:48:40.175927", "personas": 0}
+{"timestamp": "2025-04-29T08:48:52.150425", "personas": 1}
+{"timestamp": "2025-04-29T08:48:52.167809", "personas": 0}
+{"timestamp": "2025-04-29T08:48:57.237154", "personas": 1}
